@@ -1,0 +1,57 @@
+.footer{
+    background-color: #151515;
+    display: grid;
+    grid-template-rows:15% 60% 25%;
+}
+
+.footer-icons{
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    display: grid;
+    grid-template-columns: 70% auto auto auto auto;
+}
+.footer-facebook{
+    border-left: 1px solid gray;
+}
+
+.footer-boxes{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    color: gainsboro;
+    align-items: center;
+}
+.footer-information{
+    display: grid;
+    gap: 14px;
+}
+.footer-information h5{
+    font-weight: 200;
+    font-size: 16px;
+    color: darkgrey;
+    cursor: pointer;
+}
+.footer-bottom{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 70% auto;
+    align-items: center;
+    border-top: 1px solid gray;
+    color: white;
+}
+.footer-botton-links{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+.footer{
+    width: 100vw;
+    grid-template-rows:auto;
+}
+.visualFooter{
+    display: none;
+}
+}

@@ -1,0 +1,56 @@
+.top-menu{
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 13% 45% auto auto;
+    background-color: #2A41E8;
+    padding: 12px 20px;
+}
+
+.main-menu{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    background-color: white;
+    padding-left: 20px;
+}
+
+
+.main-menu .submit-listing{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #FF5E14;
+}
+
+.logo-link:active{
+        /* EFECTO EN CLICK: Se vuelve mas pequeño */
+  transform: scale(0.90);
+}
+
+.homepage{
+    text-decoration: none;
+    color: black;
+}
+
+.favorites{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+
+    .main-menu{
+        width: 100vw;
+    }
+    .top-menu{
+        display: none;
+    }
+    .main-menu .menu-option{
+        display: none;
+    }
+    .menu-option{
+        display: none;
+    }
+}

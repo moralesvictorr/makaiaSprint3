@@ -1,0 +1,80 @@
+.hero-header{
+    background-image: url(/images/header/hero-bg-image.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.header-text{
+    color: white;
+}
+
+.header-text h1{
+    font-size: 40px;
+}
+.header-text p{
+    font-size: 20px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #FAFAFA;
+    padding: 40px;
+    border-radius: 5px;
+    width: 75vw;
+    gap:20px
+}
+.select-form{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input-form{
+    font-weight: bold;
+    border: none;
+    background-color: #ECECEC;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-form{
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #2A41E8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-form:hover{
+    background-color: orange;
+}
+
+.btn-form:active{
+        /* EFECTO EN CLICK: Se vuelve mas pequeño */
+  transform: scale(0.96);
+}
+
+@media screen and (max-width: 500px) {
+    .form{
+        display: grid;
+        grid-template-columns: auto ;
+        background-color: #FAFAFA;
+        padding: 40px;
+        border-radius: 5px;
+        width: 75vw;
+        gap:20px
+    }
+    .hero-header{
+        width: 100vw;
+        padding-bottom: 20px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    .header-text p{
+        font-size: 20px;
+    }
+}

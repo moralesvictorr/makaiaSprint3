@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-layout{
+
+    display: grid;
+    grid-template-rows: 44px 63px 505px 1250px 772px 924px 1040px 500px 800px 800px 800px 834px 560px; 
+}
+
+
+.prop-by-area{
+    background-image: url(/images/Section\ -\ Properties\ by\ Area.png) ;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.our-team{
+    background-image: url(/images/Section\ -\ Our\ Team.png) ;
+    background-size: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sell-property{
+    background-image: url(/images/Section\ -\ Sell\ Property.png) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.agencies{
+    background-image: url(/images/Section\ -\ Agencies.png) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.news{
+    background-image: url(/images/Section\ -\ News.png) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 500px) {
+
+    .grid-layout{
+        display: grid;
+        grid-template-rows: auto auto auto auto auto auto auto; 
+    }
+    .prop-by-area{
+        display: none;
+    }
+    .our-team{
+        display: none;
+    }
+    
+    .sell-property{
+        display: none;
+    }
+    
+    .agencies{
+        display: none;
+    }
+    
+    .news{
+        display: none;
+    }
+}
+
+
+
+
+
+

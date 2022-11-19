@@ -1,0 +1,116 @@
+{
+"properties":[
+	{	"id":"1",
+		"image":"https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/chuttersnap-348307-unsplash-1.jpg",
+		"name":"Conuntryside Modern Summer House",
+		"location":"Pasadena",
+		"area":"800",
+		"rooms":"4",
+		"type":"house",
+		"status":"rent",
+		"price":"800",
+		"parking":"4",
+		"bath":"2",
+		"owner":
+		{
+			"ownerName":"beHome Agency",
+			"ownerConatact":"12345679"
+		},
+		"description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum."
+	},
+	{	"id":"2",
+		"image":"https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/ostap-senyuk-136511-unsplash-836x517.jpg",
+		"name":"272 S Rexford Dr,",
+		"location":"Beverly Hills",
+		"area":"440",
+		"rooms":"3",
+		"type":"house",
+		"status":"sale",
+		"price":"225000",
+		"parking":"1",
+				"bath":"2",
+		"owner":
+		{
+			"ownerName":"Lionel Richie",
+			"ownerConatact":"123456789"
+		},
+		"description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum."
+	},
+		{	
+		"id":"3",
+		"image":"https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/naomi-hebert-188443-unsplash-836x517.jpg",
+		"name":"2710 Hilltop Dr",
+		"location":"Newport Beach",
+		"area":"300",
+		"rooms":"3",
+		"type":"office",
+		"status":"rent",
+		"price":"900",
+		"parking":"4",
+				"bath":"4",
+		"owner":
+		{
+			"ownerName":"beHome Agency",
+			"ownerConatact":"123456789"
+		},
+		"description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum."
+	},
+		{	
+		"id":"4",
+		"image":"https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/isaac-benhesed-249429-unsplash-836x517.jpg",
+		"name":"Apartment Building Having 29",
+		"location":"Los Angeles",
+		"area":"120",
+		"rooms":"2",
+		"type":"apartment",
+		"status":"rent",
+		"price":"700",
+		"parking":"2",
+				"bath":"3",
+		"owner":
+		{
+			"ownerName":"John Doe",
+			"ownerConatact":"123456789"
+		},
+		"description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum."
+	},
+		{	
+		"id":"5",
+		"image":"https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/pixasquare-622732-unsplash-836x517.jpg",
+		"name":"26502 Vía Cuervo",
+		"location":"Mission Viejo",
+		"area":"200",
+		"rooms":"3",
+		"type":"house",
+		"status":"sale",
+		"price":"160000",
+		"parking":"5",
+		"bath":"4",
+		"owner":
+		{
+			"ownerName":"Lionel Richie",
+			"ownerConatact":"123456789"
+		},
+		"description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum."
+	},
+		{	
+		"id":"6",
+		"image":"https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/anna-sullivan-635346-unsplash-836x517.jpg",
+		"name":"15 Apartments of Type B",
+		"location":"Los Angeles",
+		"area":"80",
+		"rooms":"2",
+		"type":"apartment",
+		"status":"rent",
+		"price":"1700",
+		"parking":"3",
+				"bath":"3",
+		"owner":
+		{
+			"ownerName":"Lionel Richie",
+			"ownerConatact":"123456789"
+		},
+		"description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum."
+	}
+]
+}

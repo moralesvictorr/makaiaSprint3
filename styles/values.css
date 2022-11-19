@@ -1,0 +1,81 @@
+.our-values{
+    background-color: white;
+    display: grid;
+    width: 100vw - 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.values-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.values-titles h1{
+    font-size: 55px;
+}
+.values-titles h3{
+    font-size: 16px;
+    color: gray;
+    font-weight: 300;
+}
+
+.container-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+}
+.value-card{
+    padding: 30px;
+}
+.value-card h3{
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 25px;
+}
+.value-card p{
+    color: grey;
+}
+
+.our-values button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    margin-left:  45%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 100px;
+    cursor:pointer;
+}
+.our-values button:hover{
+    background-color: darkblue;
+}
+
+@media screen and (max-width: 500px) {
+    .our-values{
+        width: 100vw;
+        padding: 0;
+    }
+    .container-cards{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: auto;
+        padding: 50px;
+    }
+    .values-titles h1{
+        font-size: 30px;
+    }
+    .values-titles h3{
+        font-size: 13px;
+        color: gray;
+        font-weight: 300;
+    }
+}
